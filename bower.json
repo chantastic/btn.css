@@ -1,0 +1,24 @@
+{
+  "name": "btn.css",
+  "version": "0.0.1",
+  "homepage": "https://github.com/chantastic/btn.css",
+  "authors": [
+    "Michael Chan <mijoch@gmail.com>"
+  ],
+  "description": "WIP general purpose button",
+  "main": "btn.css",
+  "keywords": [
+    "style",
+    "css",
+    "button",
+    "btn"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
