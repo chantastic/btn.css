@@ -1,0 +1,25 @@
+{
+  "name": "btn.css",
+  "version": "0.0.1",
+  "description": "WIP general purpose button",
+  "main": "btn.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chantastic/btn.css.git"
+  },
+  "keywords": [
+    "style",
+    "css",
+    "button",
+    "btn"
+  ],
+  "author": "Michael Chan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chantastic/btn.css/issues"
+  },
+  "homepage": "https://github.com/chantastic/btn.css"
+}
