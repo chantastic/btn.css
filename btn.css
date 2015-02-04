@@ -1,25 +1,101 @@
 .btn,
 .btn:link,
 .btn:visited {
-  color: #111;
-  display: inline-block;
-  padding: 10px 7px;
-  text-decoration: none;
   font-size: 15px;
+  font-weight: bold;
   line-height: 18px;
 
+  display: inline-block;
+
+  padding: 8px 15px;
+
   cursor: pointer;
+  text-decoration: none;
+  letter-spacing: .5px;
 }
 
-.btn:hover,
-.btn:focus { }
-
-.btn:active { }
-
 /* default */
-.btn {
-  border-radius: 3px;
-  color: #111;
+.btn,
+.btn:link,
+.btn:visited {
   font-family: helvetica, arial, sans-serif;
-  border: 1px solid black;
+
+  color: hsl(0, 0%, 76%);
+  border: 2px solid;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.btn:hover {
+  color: hsl(204, 58%, 45%);
+  border-color: hsl(204, 58%, 45%);
+}
+
+/* quiet */
+.quiet-btn,
+.quiet-btn:link,
+.quiet-btn:visited {
+  color: hsl(204, 58%, 45%);
+  border-color: transparent;
+  background: transparent;
+}
+
+.quiet-btn:hover {
+  border-color: hsl(204, 58%, 45%);
+}
+
+
+/* action-btn */
+.action-btn,
+.action-btn:link,
+.action-btn:visited {
+  padding: 10px 17px;
+
+  color: white;
+  border-width: 0;
+  background-color: hsl(204, 58%, 45%);
+}
+
+.action-btn:hover
+{
+  color: white;
+  background-color: hsl(204, 58%, 55%);
+}
+
+/* destroy */
+.destroy-btn,
+.destroy-btn:link,
+.destroy-btn:visited {
+  padding: 10px 17px;
+
+  color: white;
+  border-width: 0;
+  background-color: hsl(356, 93%, 42%);
+}
+
+.destroy-btn:hover {
+  color: white;
+  background-color: hsl(356, 93%, 52%);
+}
+
+/* quiet-destroy */
+.quiet-destroy-btn:hover {
+  color: hsl(356, 93%, 42%);
+  border-color: hsl(356, 93%, 42%);
+}
+
+/* create */
+.create-btn,
+.create-btn:link,
+.create-btn:visited {
+  padding: 10px 17px;
+
+  color: white;
+  border-width: 0;
+  background-color: hsl(133, 47%, 44%);
+}
+
+.create-btn:hover {
+  color: white;
+  background-color: hsl(133, 47%, 54%);
 }
