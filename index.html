@@ -2,16 +2,25 @@
 <html>
 <head>
   <link rel="stylesheet" href="./btn.css" />
+  <style>
+    .ff-sans { font-family: -apple-system, BlinkMacSystemFont, sans-serif }
+  </style>
 </head>
-<body>
+<body class="ff-sans">
   <section>
-    <div>
-      <h3>default</h3>
+    <h3>none</h3>
 
-      <a href="#" class="btn">anchor</a>
-      <button type="button" class="btn">button</button>
-      <div class="btn">div</div>
-    </div>
+    <a href="#" class="btn">anchor</a>
+    <button type="button" class="btn">button</button>
+    <div class="btn">div</div>
+  </section>
+
+  <section>
+    <h3>default</h3>
+
+    <a href="#" class="default-btn btn">anchor</a>
+    <button type="button" class="default-btn btn">button</button>
+    <div class="default-btn btn">div</div>
   </section>
 
   <section>
@@ -23,11 +32,11 @@
   </section>
 
   <section>
-    <h3>quiet</h3>
+    <h3>quiet-action</h3>
 
-    <a href="#" class="quiet-btn btn">anchor</a>
-    <button type="button" class="quiet-btn btn">button</button>
-    <div class="quiet-btn btn">div</div>
+    <a href="#" class="quiet-action-btn btn">anchor</a>
+    <button type="button" class="quiet-action-btn btn">button</button>
+    <div class="quiet-action-btn btn">div</div>
   </section>
 
   <section>
@@ -36,6 +45,14 @@
     <a href="#" class="create-btn btn">anchor</a>
     <button type="button" class="create-btn btn">button</button>
     <div class="create-btn btn">div</div>
+  </section>
+
+  <section>
+    <h3>quiet-create</h3>
+
+    <a href="#" class="quiet-create-btn btn">anchor</a>
+    <button type="button" class="quiet-create-btn btn">button</button>
+    <div class="quiet-create-btn btn">div</div>
   </section>
 
   <section>
@@ -57,10 +74,11 @@
   <section>
     <h3>mixed</h3>
 
-    <a href="#" class="                  btn">default</a>
-    <a href="#" class="        quiet-btn btn">quiet</a>
+    <a href="#" class="      default-btn btn">default</a>
     <a href="#" class="       action-btn btn">action</a>
-    <a href="#" class="       create-btn btn">new</a>
+    <a href="#" class=" quiet-action-btn btn">quiet-action</a>
+    <a href="#" class="       create-btn btn">create</a>
+    <a href="#" class=" quiet-create-btn btn">quiet-create</a>
     <a href="#" class="      destroy-btn btn">destroy</a>
     <a href="#" class="quiet-destroy-btn btn">quiet-destroy</a>
   </section>

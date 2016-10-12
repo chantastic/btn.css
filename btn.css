@@ -1,101 +1,114 @@
+/*! minions.css | MIT License | https://github.com/chantastic/btn.css */
+
 .btn,
 .btn:link,
 .btn:visited {
-  font-size: 15px;
-  font-weight: bold;
-  line-height: 18px;
-
   display: inline-block;
+  
+  border-width: 1px;
+  border-style: solid;
 
-  padding: 8px 15px;
+  padding: 0 1em;
 
-  cursor: pointer;
+  font-size: 1em;
+  line-height: 2em;
   text-decoration: none;
-  letter-spacing: .5px;
-}
-
-/* default */
-.btn,
-.btn:link,
-.btn:visited {
-  font-family: helvetica, arial, sans-serif;
-
-  color: hsl(0, 0%, 76%);
-  border: 2px solid;
-  border-radius: 4px;
-  background-color: transparent;
-}
-
-.btn:hover {
-  color: hsl(204, 58%, 45%);
-  border-color: hsl(204, 58%, 45%);
-}
-
-/* quiet */
-.quiet-btn,
-.quiet-btn:link,
-.quiet-btn:visited {
-  color: hsl(204, 58%, 45%);
-  border-color: transparent;
-  background: transparent;
-}
-
-.quiet-btn:hover {
-  border-color: hsl(204, 58%, 45%);
 }
 
 
-/* action-btn */
+.default-btn,
+.default-btn:link,
+.default-btn:visited {
+  color: white;
+  border-color: #999;
+  background-color: #999;
+}
+.default-btn:hover {
+  color: white;
+  border-color: #aaa;
+  background-color: #aaa;
+}
+
+
 .action-btn,
 .action-btn:link,
 .action-btn:visited {
-  padding: 10px 17px;
-
   color: white;
-  border-width: 0;
-  background-color: hsl(204, 58%, 45%);
+  border-color: #00f;
+  background-color: #00f;
 }
-
-.action-btn:hover
-{
+.action-btn:hover {
   color: white;
-  background-color: hsl(204, 58%, 55%);
+  border-color: #22f;
+  background-color: #44f;
 }
 
-/* destroy */
-.destroy-btn,
-.destroy-btn:link,
-.destroy-btn:visited {
-  padding: 10px 17px;
 
-  color: white;
-  border-width: 0;
-  background-color: hsl(356, 93%, 42%);
+.quiet-action-btn,
+.quiet-action-btn:link,
+.quiet-action-btn:visited {
+  color: gray;
+  border-color: gray;
+  background-color: transparent;
+}
+.quiet-action-btn:hover {
+  color: #00f;
+  border-color: #00f;
+  background-color: transparent;
 }
 
-.destroy-btn:hover {
-  color: white;
-  background-color: hsl(356, 93%, 52%);
-}
 
-/* quiet-destroy */
-.quiet-destroy-btn:hover {
-  color: hsl(356, 93%, 42%);
-  border-color: hsl(356, 93%, 42%);
-}
-
-/* create */
 .create-btn,
 .create-btn:link,
 .create-btn:visited {
-  padding: 10px 17px;
-
   color: white;
-  border-width: 0;
-  background-color: hsl(133, 47%, 44%);
+  border-color: #080;
+  background-color: #080;
 }
-
 .create-btn:hover {
   color: white;
-  background-color: hsl(133, 47%, 54%);
+  border-color: #292;
+  background-color: #292;
+}
+
+
+.quiet-create-btn,
+.quiet-create-btn:link,
+.quiet-create-btn:visited {
+  color: gray;
+  border-color: gray;
+  background-color: transparent;
+}
+.quiet-create-btn:hover {
+  color: white;
+  border-color: #080;
+  background-color: #080;
+}
+
+
+.destroy-btn,
+.destroy-btn:link,
+.destroy-btn:visited {
+  color: white;
+  border-color: #f00;
+  background-color: #f00;
+}
+.destroy-btn:hover {
+  color: white;
+  border--color: #f44;
+  background-color: #f44;
+}
+
+
+.quiet-destroy-btn,
+.quiet-destroy-btn:link,
+.quiet-destroy-btn:visited {
+  color: gray;
+  border-color: gray;
+  background-color: transparent;
+}
+.quiet-destroy-btn:hover {
+  color: white;
+  border-color: #f00;
+  background-color: #f00;
 }
