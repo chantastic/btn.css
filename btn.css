@@ -1,8 +1,6 @@
 /*! minions.css | MIT License | https://github.com/chantastic/btn.css */
 
-.btn,
-.btn:link,
-.btn:visited {
+.btn {
   display: inline-block;
   
   border-width: 1px;
@@ -16,9 +14,7 @@
 }
 
 
-.default-btn,
-.default-btn:link,
-.default-btn:visited {
+.default-btn {
   color: white;
   border-color: #999;
   background-color: #999;
@@ -30,9 +26,7 @@
 }
 
 
-.action-btn,
-.action-btn:link,
-.action-btn:visited {
+.action-btn {
   color: white;
   border-color: #00f;
   background-color: #00f;
@@ -44,9 +38,7 @@
 }
 
 
-.quiet-action-btn,
-.quiet-action-btn:link,
-.quiet-action-btn:visited {
+.quiet-action-btn {
   color: gray;
   border-color: gray;
   background-color: transparent;
@@ -58,9 +50,7 @@
 }
 
 
-.create-btn,
-.create-btn:link,
-.create-btn:visited {
+.create-btn {
   color: white;
   border-color: #080;
   background-color: #080;
@@ -72,9 +62,7 @@
 }
 
 
-.quiet-create-btn,
-.quiet-create-btn:link,
-.quiet-create-btn:visited {
+.quiet-create-btn {
   color: gray;
   border-color: gray;
   background-color: transparent;
@@ -86,9 +74,7 @@
 }
 
 
-.destroy-btn,
-.destroy-btn:link,
-.destroy-btn:visited {
+.destroy-btn {
   color: white;
   border-color: #f00;
   background-color: #f00;
@@ -100,9 +86,7 @@
 }
 
 
-.quiet-destroy-btn,
-.quiet-destroy-btn:link,
-.quiet-destroy-btn:visited {
+.quiet-destroy-btn {
   color: gray;
   border-color: gray;
   background-color: transparent;
