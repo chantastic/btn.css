@@ -1,6 +1,6 @@
 # btn.css
 
-A singular, styleable button.
+A scalable, styleable button.
 
 ## Installation
 
