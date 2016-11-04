@@ -40,9 +40,19 @@ Extend `.btn` with classes of your own.
 Creating a new classes that define `color`, `background-color` and `border-color`.
 
     .my-fancy-outline-btn {
-      color: purple;
-      border-color: purple;
+      color: blue;
       background-color: transparent;
+      border-color: currentColor;
+    }
+    .my-fancy-outline-btn:hover {
+      color: white;
+      background-color: blue;
+      border-color: blue;
+    }
+    .my-fancy-outline-btn:active {
+      color: whitesmoke;
+      background-color: darkblue;
+      border-color: darkblue;
     }
 
 ### Adapters
@@ -55,7 +65,6 @@ Make an adapter for `.btn` in your app.
       border-radius: 4px;
       box-shadow: 0 4px 3px -2px rgba(0,0,0,0.3);
     }
-    .btn:hover { cursor: pointer }
 
 ### Scale
 
