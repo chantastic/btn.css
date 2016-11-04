@@ -1,86 +1,125 @@
 <!doctype html>
 <html>
 <head>
-  <link rel="stylesheet" href="./btn.css" />
   <style>
-    .ff-sans { font-family: -apple-system, BlinkMacSystemFont, sans-serif }
+    .ff-system-sans{font-family: -apple-system, BlinkMacSystemFont, sans-serif}
+    .fw-900{font-weight: 900}
+    .xw-600p{max-width: 600px}
+    .m-0a{margin: 0 auto}
+    .mb_4 > * {margin-bottom: 4rem}
+
+    style {display: block; font-family: monospace; white-space: pre;margin-top: -1rem}
+
   </style>
 </head>
-<body class="ff-sans">
+<body class="ff-system-sans xw-600p m-0a mb_4">
+  <header>
+    <h1 class="fw-900">btn.css</h1>
+    <p>A singular, styleable button.</p>
+  </header>
+  
   <section>
-    <h3>none</h3>
+    <h3 class="fw-900">Your basic button</h3>
+    <style>
+.btn {
+  font-size: 1em;
+  line-height: 2em;
 
-    <a href="#" class="btn">anchor</a>
+  display: inline-block;
+
+  padding: 0 1em;
+
+  text-decoration: none;
+
+  border-width: 1px;
+  border-style: solid;
+}
+    </style>
+
     <button type="button" class="btn">button</button>
-    <div class="btn">div</div>
   </section>
 
   <section>
-    <h3>default</h3>
+    <h3 class="fw-900">Let's make a blue one</h3>
+    <style>
+.blue-btn {
+  border-color: blue;
+  background-color: blue;
+  color: white;
+}
+    </style>
 
-    <a href="#" class="default-btn btn">anchor</a>
-    <button type="button" class="default-btn btn">button</button>
-    <div class="default-btn btn">div</div>
+    <button type="button" class="blue-btn btn">button</button>
   </section>
 
   <section>
-    <h3>action</h3>
+    <h3 class="fw-900">No, maybe an outlined blue one</h3>
+    <style>
+.outline-blue-btn {
+  border-color: currentColor;
+  background-color: transparent;
+  color: blue;
+}
+    </style>
 
-    <a href="#" class="action-btn btn">anchor</a>
-    <button type="button" class="action-btn btn">button</button>
-    <div class="action-btn btn">div</div>
+    <button type="button" class="outline-blue-btn btn">button</button>
   </section>
 
   <section>
-    <h3>quiet-action</h3>
+    <h3 class="fw-900">Moar sizes, plz</h3>
+    <style>
+.btn--lg { font-size: 1.125em }
+.btn--sm { font-size: .8em }
+    </style>
 
-    <a href="#" class="quiet-action-btn btn">anchor</a>
-    <button type="button" class="quiet-action-btn btn">button</button>
-    <div class="quiet-action-btn btn">div</div>
+    <button type="button" class="outline-blue-btn btn btn--lg">button</button>
+    <br />
+    <br />
+    <button type="button" class="outline-blue-btn btn btn--sm">button</button>
   </section>
 
   <section>
-    <h3>create</h3>
+    <h3 class="fw-900">Moar like bootstrap, plz</h3>
+    <style>
+.bootstrap-theme .btn { border-radius: 4px }
+    </style>
 
-    <a href="#" class="create-btn btn">anchor</a>
-    <button type="button" class="create-btn btn">button</button>
-    <div class="create-btn btn">div</div>
+    <div class="bootstrap-theme">
+      <button type="button" class="outline-blue-btn btn">button</button>
+    </div>
   </section>
-
+  
   <section>
-    <h3>quiet-create</h3>
+    <h3 class="fw-900">Sweet, sweet hovers</h3>
+    <style>
+.my-app .btn:hover {
+  background-color: blue;
+  border-color: blue;
+  color: white;
+}
+    </style>
 
-    <a href="#" class="quiet-create-btn btn">anchor</a>
-    <button type="button" class="quiet-create-btn btn">button</button>
-    <div class="quiet-create-btn btn">div</div>
+    <div class="my-app bootstrap-theme">
+      <button type="button" class="outline-blue-btn btn">button</button>
+    </div>
   </section>
-
+  
   <section>
-    <h3>destroy</h3>
+    <h3 class="fw-900">The code</h3>
 
-    <a href="#" class="destroy-btn btn">anchor</a>
-    <button type="button" class="destroy-btn btn">button</button>
-    <div class="destroy-btn btn">div</div>
+    <a href="https://github.com/chantastic/btn.css" target="_blank">Source on Github</a>
+    &#9829; <a href="http://twitter.com/chantastic" target="_blank">chantastic</a>
   </section>
 
-  <section>
-    <h3>quiet-destroy</h3>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-    <a href="#" class="quiet-destroy-btn btn">anchor</a>
-    <button type="button" class="quiet-destroy-btn btn">button</button>
-    <div class="quiet-destroy-btn btn">div</div>
-  </section>
+    ga('create', 'UA-46843279-3', 'auto');
+    ga('send', 'pageview');
 
-  <section>
-    <h3>mixed</h3>
-
-    <a href="#" class="      default-btn btn">default</a>
-    <a href="#" class="       action-btn btn">action</a>
-    <a href="#" class=" quiet-action-btn btn">quiet-action</a>
-    <a href="#" class="       create-btn btn">create</a>
-    <a href="#" class=" quiet-create-btn btn">quiet-create</a>
-    <a href="#" class="      destroy-btn btn">destroy</a>
-    <a href="#" class="quiet-destroy-btn btn">quiet-destroy</a>
-  </section>
+    </script>
 </body>
 </html>

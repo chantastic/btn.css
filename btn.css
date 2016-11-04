@@ -1,98 +1,10 @@
-/*! minions.css | MIT License | https://github.com/chantastic/btn.css */
-
+/*! btn.css */
 .btn {
-  display: inline-block;
-  
-  border-width: 1px;
-  border-style: solid;
-
-  padding: 0 1em;
-
-  font-size: 1em;
-  line-height: 2em;
-  text-decoration: none;
-}
-
-
-.default-btn {
-  color: white;
-  border-color: #999;
-  background-color: #999;
-}
-.default-btn:hover {
-  color: white;
-  border-color: #aaa;
-  background-color: #aaa;
-}
-
-
-.action-btn {
-  color: white;
-  border-color: #00f;
-  background-color: #00f;
-}
-.action-btn:hover {
-  color: white;
-  border-color: #22f;
-  background-color: #44f;
-}
-
-
-.quiet-action-btn {
-  color: gray;
-  border-color: gray;
-  background-color: transparent;
-}
-.quiet-action-btn:hover {
-  color: #00f;
-  border-color: #00f;
-  background-color: transparent;
-}
-
-
-.create-btn {
-  color: white;
-  border-color: #080;
-  background-color: #080;
-}
-.create-btn:hover {
-  color: white;
-  border-color: #292;
-  background-color: #292;
-}
-
-
-.quiet-create-btn {
-  color: gray;
-  border-color: gray;
-  background-color: transparent;
-}
-.quiet-create-btn:hover {
-  color: white;
-  border-color: #080;
-  background-color: #080;
-}
-
-
-.destroy-btn {
-  color: white;
-  border-color: #f00;
-  background-color: #f00;
-}
-.destroy-btn:hover {
-  color: white;
-  border--color: #f44;
-  background-color: #f44;
-}
-
-
-.quiet-destroy-btn {
-  color: gray;
-  border-color: gray;
-  background-color: transparent;
-}
-.quiet-destroy-btn:hover {
-  color: white;
-  border-color: #f00;
-  background-color: #f00;
+font-size: 1em;
+line-height: 2em;
+display: inline-block;
+padding: 0 1em;
+text-decoration: none;
+border-width: 1px;
+border-style: solid;
 }

@@ -1,14 +1,22 @@
 # btn.css
 
-A general purpose, extensible button class with themes.
+A singular, styleable button.
 
-## Usage
+## Installation
 
-This is a minimum viable button in its entirety.
+Scrit tag:
 
-    .btn,
-    .btn:link,
-    .btn:visited {
+    <link rel="stylesheet" href="https://unpkg.com/btn.css@0.1.0" />
+
+Node:
+
+    npm install btn.css
+
+## The code
+
+This is `.btn` all the code.
+
+    .btn {
       display: inline-block;
 
       border-width: 1px;
@@ -21,9 +29,7 @@ This is a minimum viable button in its entirety.
       text-decoration: none;
     }
 
-It has very few opinions about anything.
-
-You extend it by creating a new classes that define `color`, `background-color` and `border-color`.
+Extend it by creating a new classes that define `color`, `background-color` and `border-color`.
 
     .my-fancy-outline-btn {
       color: purple;
@@ -31,28 +37,11 @@ You extend it by creating a new classes that define `color`, `background-color` 
       background-color: transparent;
     }
 
-That's pretty much it.
+That's it.
 
-## Contextual style
+You can also scale it by changing `font-size`.
 
-I [utility classes for everything](https://github.com/chantastic/minions.css).
-So, there are no general-purpose modifiers for the `.btn` base class.
-
-### Scaling
-
-If you want to scale the button, apply a different `font-size`.
-
-## Included classes
-
-There are a few classes bundled in by default.
-
-* `.default-btn`
-* `.action-btn`
-* `.quiet-action-btn`
-* `.create-btn`
-* `.quiet-create-btn`
-* `.destroy-btn`
-* `.quiet-destroy-btn`
+    .my-big-btn { font-size: 2em }
 
 [Examples](https://chantastic.org/btn.css/)
 
