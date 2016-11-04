@@ -17,16 +17,18 @@ Node:
 This is `.btn` all the code.
 
     .btn {
-      display: inline-block;
+      font-size: 1em;
+      line-height: 2em;
 
-      border-width: 1px;
-      border-style: solid;
+      display: inline-block;
 
       padding: 0 1em;
 
-      font-size: 1em;
-      line-height: 2em;
+      cursor: pointer;
       text-decoration: none;
+
+      border-width: 1px;
+      border-style: solid;
     }
 
 ## Usage
