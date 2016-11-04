@@ -4,13 +4,13 @@ A scalable, style-able button.
 
 ## Installation
 
-Scrit tag:
+Script tag:
 
-    <link rel="stylesheet" href="https://unpkg.com/btn.css@0.1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/btn.css@0.2.0" />
 
 Node:
 
-    npm install btn.css
+    npm install btn.css@0.2.0
 
 ## The code
 
