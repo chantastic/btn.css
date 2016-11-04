@@ -29,7 +29,13 @@ This is `.btn` all the code.
       text-decoration: none;
     }
 
-Extend it by creating a new classes that define `color`, `background-color` and `border-color`.
+## Usage
+
+### Modifiers
+
+Extend `.btn` with classes of your own.
+
+Creating a new classes that define `color`, `background-color` and `border-color`.
 
     .my-fancy-outline-btn {
       color: purple;
@@ -37,12 +43,30 @@ Extend it by creating a new classes that define `color`, `background-color` and 
       background-color: transparent;
     }
 
-That's it.
+### Adapters
 
-You can also scale it by changing `font-size`.
+Chances are you're buttons share a common theme.
+Make an adapter for `.btn` in your app.
+
+    /* my app's .btn */
+    .btn {
+      border-radius: 4px;
+      box-shadow: 0 4px 3px -2px rgba(0,0,0,0.3);
+    }
+    .btn:hover { cursor: pointer }
+
+### Scale
+
+Scale `.btn` by changing `font-size`.
 
     .my-big-btn { font-size: 2em }
 
-[Examples](https://chantastic.org/btn.css/)
+You can also scale one-off buttons right on element.
+
+    <button class="btn" style="font-size: 20em">Super Button</button>
+
+## More examples
+
+[chantastic.org/btn.css](https://chantastic.org/btn.css/)
 
 <3 [@chantastic](http://twitter.com/chantastic)
