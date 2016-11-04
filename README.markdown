@@ -1,6 +1,6 @@
 # btn.css
 
-A scalable, styleable button.
+A scalable, style-able button.
 
 ## Installation
 
