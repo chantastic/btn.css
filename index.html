@@ -9,7 +9,7 @@
     .m-0a{margin: 0 auto}
     .mb_4 > * {margin-bottom: 4rem}
 
-    style {display: block; font-family: monospace; white-space: pre;margin-top: -1rem}
+    style {display: block; font-family: monospace; white-space: pre}
 
   </style>
 </head>
@@ -20,21 +20,24 @@
   </header>
   
   <section>
-    <h3 class="fw-900">Your basic button</h3>
+    <h3 class="fw-900">All the code</h3>
+    <p>This is everything you get with the btn.css class.</p>
     <style>
+/*! btn.css */
 .btn {
   font-size: 1em;
   line-height: 2em;
-
   display: inline-block;
-
   padding: 0 1em;
-
   cursor: pointer;
+  white-space: nowrap;
   text-decoration: none;
-
   border-width: 1px;
   border-style: solid;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
     </style>
 
@@ -42,20 +45,8 @@
   </section>
 
   <section>
-    <h3 class="fw-900">Let's make a blue one</h3>
-    <style>
-.blue-btn {
-  border-color: blue;
-  background-color: blue;
-  color: white;
-}
-    </style>
-
-    <button type="button" class="blue-btn btn">button</button>
-  </section>
-
-  <section>
-    <h3 class="fw-900">No, maybe an outlined blue one</h3>
+    <h3 class="fw-900">Let's make a button</h3>
+    <p>You're an adult. Make buttons all on your own.</p>
     <style>
 .outline-blue-btn {
   border-color: currentColor;
@@ -69,6 +60,15 @@
 
   <section>
     <h3 class="fw-900">Moar sizes, plz</h3>
+    <p>
+      This button uses em for sizing.
+      Buttons are sized relative to the <code>font-size</code>.
+    </p>
+    <p>
+      Want bigger or smaller buttons?
+      Change the <code>font-size</code>.
+    </p>
+    
     <style>
 .btn--lg { font-size: 1.125em }
 .btn--sm { font-size: .8em }
@@ -82,6 +82,7 @@
 
   <section>
     <h3 class="fw-900">Moar like bootstrap, plz</h3>
+    <p>Bring your own theme. Do what you want.</p>
     <style>
 .bootstrap-theme .btn { border-radius: 4px }
     </style>
@@ -93,6 +94,7 @@
   
   <section>
     <h3 class="fw-900">Sweet, sweet states</h3>
+    <p>Set all the colors and your good to go!</p>
     <style>
 .my-app .btn:hover {
   background-color: blue;

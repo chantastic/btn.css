@@ -6,29 +6,31 @@ A scalable, style-able button.
 
 Script tag:
 
-    <link rel="stylesheet" href="https://unpkg.com/btn.css@0.2.0" />
+    <link rel="stylesheet" href="https://unpkg.com/btn.css@0.3.0" />
 
 Node:
 
-    npm install btn.css@0.2.0
+    npm install btn.css@0.3.0
 
 ## The code
 
 This is `.btn` all the code.
 
+    /*! btn.css */
     .btn {
       font-size: 1em;
       line-height: 2em;
-
       display: inline-block;
-
       padding: 0 1em;
-
       cursor: pointer;
+      white-space: nowrap;
       text-decoration: none;
-
       border-width: 1px;
       border-style: solid;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
     }
 
 ## Usage
