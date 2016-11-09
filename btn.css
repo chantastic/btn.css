@@ -5,9 +5,12 @@ line-height: 2em;
 display: inline-block;
 padding: 0 1em;
 cursor: pointer;
-vertical-align:middle;
 white-space: nowrap;
 text-decoration: none;
 border-width: 1px;
 border-style: solid;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
 }
