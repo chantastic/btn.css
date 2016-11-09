@@ -5,6 +5,7 @@ line-height: 2em;
 display: inline-block;
 padding: 0 1em;
 cursor: pointer;
+white-space: nowrap;
 text-decoration: none;
 border-width: 1px;
 border-style: solid;
