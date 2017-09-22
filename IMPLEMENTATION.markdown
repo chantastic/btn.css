@@ -136,7 +136,7 @@ For highly specific buttons, favor inline styles or utility classes
 <button
   type="button"
   class="create-btn btn"
-  style="py-2 font-size-2"
+  style="padding: 0 2rem; font-size: 1.5rem"
 >Create workflow card</button>
 ```
 
